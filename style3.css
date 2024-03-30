@@ -1,0 +1,27 @@
+/* p.error {
+    color: pink;
+} */
+
+/* div.error{
+    color: purple;
+} */
+
+ /* a[href*= ".com"]{
+    /* background-color: black; */
+    /* color: red;
+    font-weight: bold;
+    border: 1px solid grey;
+    margin: 20px;
+}  */ 
+
+
+div {
+    border: blue;
+    margin: 40px;
+
+}
+
+p{
+    border: inherit;
+    margin: inherit;
+}
