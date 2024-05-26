@@ -15,8 +15,14 @@ body{
 .flex-container{
     display: flex;
     background: #fff;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
     /* float: left; */
 }
+
 /* .flex-container:after{
     content:"";
     display:block;
@@ -25,7 +31,9 @@ body{
 
 .box{
     height: 100px;
-    min-width: 100px;
+    /* min-width: 100px;
+ */
+  flex: 0 0 100px;
 }
 
 .one{
